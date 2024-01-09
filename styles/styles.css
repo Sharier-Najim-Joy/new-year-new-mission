@@ -307,7 +307,39 @@
     margin-bottom: 64px;
 }
 
-.holiday-content .holiday-img {}
+.holiday-content .holiday-img {
+    display: flex;
+    align-items: center;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+}
+
+.holiday-img .img-one {
+    position: relative;
+    bottom: -160px;
+    width: 600px;
+    left: 50px;
+}
+
+.holiday-img .img-one img {
+    max-width: 100%;
+}
+
+.img-two {
+    width: 250px;
+    position: relative;
+    bottom: -50px;
+}
+
+.img-two img {
+    max-width: 100%;
+}
+
+.img-bottom img {
+    width: 100%;
+}
 
 /* section holiday end */
 /* portfolio section */
@@ -464,6 +496,10 @@ footer {
     font-weight: 500;
     line-height: 40px;
     margin-bottom: 50px;
+}
+
+.footer-des .des .des-icon img {
+    max-width: 20px;
 }
 
 .footer-img {
